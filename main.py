@@ -7,3 +7,4 @@ elif a == 0:
     print('Число дорівнює 0')
 else:
     print("a <= 0")
+    print(a)
