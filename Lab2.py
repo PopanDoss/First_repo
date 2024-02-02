@@ -46,8 +46,7 @@
 # def format_string(string, length):
 #     if len(string)>=length:
 #         return string
-#     return ((length - len(string)) // 2) *" " + string
-    
+#     return ((length - len(string)) // 2) *" " + string  
 
 # print(format_string("tartar", 20))
 
@@ -64,17 +63,22 @@
 # print(first(1, "Alex", "Boris"))             # Результат: 3
 # print(second(3, comment_one="first", comment_two="second", comment_third="third"))  # Результат: 6
 
-def factorial(n):
-    if n < 2:
-        return 1
-    else:
-        return n * factorial(n - 1)
 
-def number_of_groups(n, k):
-    if k < 2 :
-        return 1
-    else:
-        c = factorial(n) / (factorial(n-k) * factorial(k))
-        return c
 
-print(number_of_groups(50,2))
+
+# def factorial(n):
+#     if n < 2:
+#         return 1
+#     else:
+#         return n * factorial(n - 1)
+
+# def number_of_groups(n, k):
+#     if k < 2 :
+#         return 1
+#     else:
+#         c = factorial(n) / (factorial(n-k) * factorial(k))
+#         return c
+
+# print(number_of_groups(50,2))
+
+print(dir(list))
